@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+}
+.card {
+    display: flex;
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius: 14px;
+    overflow: hidden;
+}
+.header {
+    height: 500px;
+    width: 350px;
+    background-image: url(image-product-desktop.jpg);
+    background-size: cover;
+}
+.right {
+    width: 350px;
+    height: 500px;
+}
+span {
+    text-decoration: line-through;
+}
+button {
+    height: 50px;
+    width: 280px;
+    font-weight: 600;
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+#perfume {
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-weight: 550;
+    text-align: left;
+}
+#perfumename {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-weight: 700;
+    font-size: 42px;
+    text-align: left;
+    line-height: 42px;
+}
+#description {
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: left;
+    font-size: 18px;
+    line-height: 25px;
+}
+.container {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+#discountedprice {
+    text-align: left;
+    font-size: 42px;
+    margin-left: 40px;
+}
+#previousprice {
+    margin-left: 20px;
+}
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+.fraunces {
+    font-family: "Fraunces", serif;
+}
+.gray {
+    color: hsl(228, 12%, 48%);
+}
+.lightgreen {
+    color: hsl(158, 36%, 37%);
+}
+.fa-cart-shopping {
+    color: white;
+}
